@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeff Chebul - Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3>Jeff's Portfolio</h3>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="https://github.com/GeekAndDestroy">My Github</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div id="main-articles">
+        <article>
+                <h2>A little about me.</h2>
+                <img class="image-fit" src="./images/hobby.jpeg" alt="People sitting around a campfire in the desert.">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio magni labore adipisci nobis aliquid dolorum qui possimus, culpa laborum asperiores. Voluptatibus aliquid molestias facilis architecto iure accusantium nihil! Accusantium, magnam!
+                </p>
+            </article>
+            <article>
+                <h2>My Happy Place.</h2>
+                <img class="image-fit" src="./images/place.jpeg" alt="A small waterfall deep in the woods."></img>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae repudiandae suscipit placeat quis harum! Sapiente deleniti est totam ex a iste beatae ea, sit tenetur eligendi molestias officiis rerum aut.</p>
+            </article>
+        </div>
+        <div id="side-bar">
+            <article class="gray-bg">
+                <img id="prof-pic" src="./images/me.jpeg" alt="Ruggedly handsome gentlemen sitting in a field with an ocean view with a dog in his lap.">
+                <h2>Jeff Chebul</h2>
+                Ass-Backwards Tennessee
+            </article>
+            <article class="gray-bg">
+                <h2>Contact Me</h2>
+                <form action="mailto:jmchebul@jmchebul.com" method="post">
+                    <div>
+                        <label for="name_field">Your full name:</label>
+                    </div>
+                    <input id="name_field" name="name_field" type="text" placeholder="Name">
+                    <div>
+                        <label for="email-field">Your Email Address:</label>
+                    </div>
+                    <input id="email-field" name="email-field" type="text" placeholder="someone@email.com">
+                    <div>
+                        <label for="message-field"></label>
+                    </div>
+                    <textarea id="message-field" name="message-field" rows="5" type="text" placeholder="Write your ideas here."></textarea>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+                <!-- <label for="setcolor">Set Color</label>
+                <input id="setcolor" type="color"> -->
+                <!-- <label for="skills">Skills</label>
+                <progress id="skills" type="color" max="100" value="25"> -->
+            </article>
+        </div>
+    </main>
+    <footer>
+        &copy;2024 Jeff Chebul
+    </footer>
+  </body>
+</html>
